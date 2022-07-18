@@ -1,0 +1,48 @@
+.affair{
+    display: flex;
+}
+
+.btn {
+    padding: 2px;
+    margin-right: 10px;
+    width: 60px;
+    outline: none;
+}
+
+.btn:last-child {
+    margin-right: 0px;
+}
+
+.activeBtn {
+    background-color: lightblue;
+}
+
+.delBtn {
+    margin-left: 20px;
+
+
+}
+
+.spanName {
+    padding: 2px;
+    /*margin: 0 auto;*/
+    /*margin-right: 5px;*/
+}
+.spanPrior {
+    width: 100px;
+    margin: 10px;
+    /*padding: 2px;*/
+    /*margin-right: 5px;*/
+}
+
+.low{
+    color: greenyellow;
+}
+
+.middle{
+    color:blue;
+}
+
+.high{
+    color: red;
+}
