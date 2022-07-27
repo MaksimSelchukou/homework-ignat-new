@@ -17,12 +17,14 @@ function HW1() {
     console.log(actMessage)
     return (
         <div>
+            <hr/>
             <input value={actMessage} type="text" onChange={onChange}/>
             <button onClick={(e) => {
                 setMessage(actMessage)
                 setActualActMessage('')
             }}>send
             </button>
+            <hr/>
 
             <hr/>
             homeworks 1

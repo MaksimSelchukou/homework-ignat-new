@@ -1,0 +1,28 @@
+.container {
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: cornflowerblue;
+}
+
+.active {
+    text-decoration: none;
+    color: red;
+}
+
+.header {
+    display: inline-block;
+    background-color: #e5cccc;
+    transform: translate(-120px);
+    transition-duration: 500ms
+}
+
+.header:hover {
+    transform: translate(20px);
+    transition-duration: 500ms
+}
