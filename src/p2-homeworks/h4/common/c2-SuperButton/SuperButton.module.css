@@ -1,7 +1,9 @@
 .default {
     background: cornflowerblue;
+    margin: 5px;
 }
 
 .red {
     background: red;
+    margin: 5px;
 }

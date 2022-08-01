@@ -16,10 +16,16 @@ const SuperButton: React.FC<SuperButtonPropsType> = (
 ) => {
     const finalClassName = `${red ? s.red : s.default} ${className}`
 
+    // const onClickHandler = () => {
+    //     {...restProps.onClick()}
+    // }
+    console.log(restProps)
     return (
         <button
             className={finalClassName}
             {...restProps}
+            // onClick={onClickHandler}
+
 
             // отдаём кнопке остальные пропсы если они есть (children там внутри)
         />
